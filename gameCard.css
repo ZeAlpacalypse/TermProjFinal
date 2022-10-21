@@ -1,0 +1,170 @@
+html {
+    font-family: "Secular One", sans-serif;
+    letter-spacing: 0.09375em;
+    background-color: rgb(249, 224, 170);
+    box-sizing: border-box;
+  }
+  #title {
+    text-align: center;
+    font-size: 1.875em;
+    font-weight: bold;
+    color: darkslategray;
+    width: 100%;
+  }
+  div {
+    margin: 0%;
+  }
+  #topNav {
+    overflow: hidden;
+  }
+  #topNav > div {
+    float: left;
+    border: thin solid black;
+    width: 16.6%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 1.125em;
+    overflow: hidden;
+    background-color: coral;
+  }
+  #topNav > div:hover {
+    background-color: rgb(255, 185, 80);
+  }
+  #sideNav {
+    width: 5.5%;
+    float: left;
+    text-align: center;
+  }
+  #sideNav img {
+    width: 70px;
+    height: 70px;
+  }
+  #content1 {
+    float: left;
+    width: 88%;
+    margin-left: 8.5%;
+    margin-top: 2%;
+  }
+  .card {
+    width: 45%;
+    height: 43em;
+    border: thick solid black;
+    float: left;
+    box-sizing: border-box;
+    padding: 1%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: rgb(108, 179, 181);
+    overflow: hidden;
+  }
+
+  .card > img {
+    width: 15.625em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+  }
+  .cardInfo {
+    padding: 5px;
+    margin-top: 1%;
+    position: relative;
+    height: auto;
+    width: auto;
+  }
+
+  .card > div {
+    padding: 5px;
+  }
+
+  h1 {
+    width: 88%;
+    text-align: center;
+    height: 0%;
+  }
+  .headers {
+    font-size: 1.5em;
+    color: darkslategray;
+    text-align: center;
+    float: left;
+  }
+  
+  #footer {
+    width: 100%;
+  float: left;
+    border-top: solid thin black;
+    margin-top: 2%;
+  }
+  #footer > div {
+    font-size: 10px;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    color: darkslategray;
+  }
+  #footer div:first-child {
+    float: left;
+    width: 32.5%;
+    text-align: left;
+  }
+  #footer div:last-child {
+    float: right;
+    width: 32.5%;
+    text-align: right;
+  }
+  #footer div:nth-child(2){
+    float: left;
+    width: 32.5%;
+    text-align: center;
+  }
+  #featured {
+    float: left;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 0%;
+    display: block;
+    overflow: auto;
+    align-content: center;
+  }
+  .bigimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bigimg > img {
+    width: 50%;
+    height: 15%;
+  }
+  #card {
+    border: solid thin black;
+    margin: 1em;
+    width: 15em;
+    height: 12em;
+    float: left;
+    text-align: center;
+    background-color: rgb(108, 179, 181);
+    overflow: hidden;
+  }
+   .cardimg{
+    margin-top: 4%;
+    margin-bottom: 1%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .cardimg > img {
+    height: 6.125em;
+    width: 11em;
+  }
+  .content {
+    width: 100%;
+    float: left;
+  }
+  a:hover {
+    color: rgb(64, 16, 109);
+  }
+  a:visited {
+    color: rgb(176, 22, 223);
+  }
