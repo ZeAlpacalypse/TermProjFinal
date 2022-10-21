@@ -1,0 +1,161 @@
+html {
+    font-family: "Secular One", sans-serif;
+    letter-spacing: 0.09375em;
+    background-color: rgb(249, 224, 170);
+    box-sizing: border-box;
+  }
+  #title {
+    text-align: center;
+    font-size: 1.875em;
+    font-weight: bold;
+    color: darkslategray;
+    width: 100%;
+  }
+  div {
+    margin: 0%;
+  }
+  #topNav {
+    overflow: hidden;
+  }
+  #topNav > div {
+    float: left;
+    border: thin solid black;
+    width: 16.6%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  #sideNav {
+    width: 5.5%;
+    float: left;
+    text-align: center;
+    clear: both;
+    margin-bottom: 1%;
+  }
+  #sideNav img {
+    width: 70px;
+    height: 70px;
+    clear: both;
+  }
+  #content {
+    float: right;
+    width: 88%;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+  }
+  h1 {
+    width: 88%;
+    text-align: center;
+    height: 0%;
+  }
+  .headers {
+    font-size: 1.5em;
+    color: darkslategray;
+    text-align: center;
+    float: left;
+  }
+  .mainImg {
+    display: block;
+    margin-left: auto;
+    margin-right: 30%;
+    margin-bottom: 40px;
+    width: 44%;
+  }
+  #consoleLogo {
+    width: 128px;
+    float: right;
+    margin-left: 0%;
+  }
+  #saleData {
+    float: right;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    border: solid thin black ;
+    padding: 1%;
+    background-color: lightgreen;
+    border-radius: 20px;
+  }
+  #gameDesc {
+    float: left;
+    width: 39%;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 40px;
+  }
+  #bottomData {
+    float: left;
+    width: 88%;
+
+    margin-bottom: 20px;
+  }
+  #firstSC {
+    float: right;
+    margin-right: 17.5%;
+    margin-left: auto;
+    margin-top: 3%;
+    width: 30%;
+    margin-bottom: 1%;
+    display: block;
+  }
+  #secondSC {
+    float: left;
+    margin-left: 5%;
+    width: 50%;
+  }
+  #bottomData > p {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+  }
+  #title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkslategray;
+    width: 100%;
+  }
+  #container {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid thick black;
+    background-color: rgb(108, 179, 181);
+    overflow: auto;
+    padding: 4%;
+    margin-top: 10%;
+  }
+  #footer {
+    width: 100%;
+  float: left;
+    border-top: solid thin black;
+    margin-top: 2%;
+  }
+  #footer > div {
+    font-size: 10px;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    color: darkslategray;
+  }
+  #footer div:first-child {
+    float: left;
+    width: 32.5%;
+    text-align: left;
+  }
+  #footer div:last-child {
+    float: right;
+    width: 32.5%;
+    text-align: right;
+  }
+  #footer div:nth-child(2){
+    float: left;
+    width: 32.5%;
+    text-align: center;
+  }
+  a:hover {
+    color: rgb(64, 16, 109);
+  }
+  a:visited {
+    color: rgb(176, 22, 223);
+  }
