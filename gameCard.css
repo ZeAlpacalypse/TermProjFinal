@@ -141,7 +141,7 @@ html {
   #card {
     border: solid thin black;
     margin: 1em;
-    width: 15em;
+    width: 14em;
     height: 12em;
     float: left;
     text-align: center;
@@ -161,6 +161,9 @@ html {
   .content {
     width: 100%;
     float: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   a:hover {
     color: rgb(64, 16, 109);
